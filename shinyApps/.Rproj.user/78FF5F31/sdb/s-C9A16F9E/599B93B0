@@ -1,0 +1,16 @@
+{
+    "contents" : "Number Summary, a Shiny Application\n========================================================\nauthor: The Presenter\ndate: `r date()`\ntransition: fade\n\nWhy Number Summary ?\n========================================================\n\nThis shiny application hepls calculating number summary for a given list of numeric values\n\nThis is quite simple:\n- Just enter your numbers in a text box\n- Input numbers should be comma(,) seperated\n- Immediately quantiles (summary) & Boxplot will be created\n\nPros: This is very handy for small amount of numeric values\n\nCons: Not suitable for large amount amount of numeric values\n\nExample\n========================================================\n- Lets say we have 10 numbers to check their summary.\n\n- Just enter them as below(comma seperate) for an example:\n0,2,3,1,4,6,9,5,7,8\n\n- The apps will show quantiles similar to below:\n\n```{r echo = FALSE}\ninputValues = c(10,20,15,30,25,50,60,-10,13.5,-20.5)\nsummary(inputValues)\n```\n\nExample (Cont.)\n========================================================\n- It will show the the corresponding boxplot as below:\n\n```{r, echo=FALSE}\nboxplot(inputValues,\n        xlab = '', ylab = 'Input Numeric Values',\n\tmain = 'Box Plot')\n```\n\n\nConclusion\n========================================================\n\n- It is very simple and easly to use\n- It is free and opensource, just change as per your need\n- Share it to as many people as you want\n\nApplication link(shinyapps.io):\n\nSource Code(github):\n",
+    "created" : 1408344910548.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2408866931",
+    "id" : "599B93B0",
+    "lastKnownWriteTime" : 1408344924,
+    "path" : "C:/MyRoot/work/BigData/DataScience/Coursera Johns Hopkins Specialization in Data Science/Course Works/DevelopingDataProducts/courseProject/rStudioPresenter/RPresentation.Rpres",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}
